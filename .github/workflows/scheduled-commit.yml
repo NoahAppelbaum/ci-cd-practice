@@ -40,5 +40,5 @@ jobs:
         run: |
           # Stage the file, commit and push
           git add time.txt
-          git commit -m "new date commit"
+          git commit -m "Updated time file `date`"
           git push origin main
