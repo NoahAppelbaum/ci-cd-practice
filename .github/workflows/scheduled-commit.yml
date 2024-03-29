@@ -36,6 +36,6 @@ jobs:
       - name: commit
         run: |
           # Stage the file, commit and push
-          git add text.txt
+          git add time.txt
           git commit -m "new date commit"
           git push origin main
