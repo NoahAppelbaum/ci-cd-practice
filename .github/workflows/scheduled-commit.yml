@@ -40,7 +40,7 @@ jobs:
         run: |
           # Stage the file, commit and push, conditionally
           if $(($RANDOM % 2)); then
-          git add time.txt
-          git commit -m "Updated time file `date`"
-          git push origin main
+            git add time.txt
+            git commit -m "Updated time file `date`"
+            git push origin main
           fi
